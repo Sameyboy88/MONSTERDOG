@@ -45,3 +45,12 @@ npm install -g netlify-cli
 netlify dev
 
 ```
+
+## Additional scripts
+
+This repository includes optional Python utilities in `scripts/`.
+
+- **flask_nft_interface.py** – a Flask + Dash application for minting NFTs and visualizing vortex data. Environment variables configure Web3 and IPFS.
+- **MONSTERDOG_METRICS_ULTIMATE_TRIPLED.py** – merges local metric files, extracts Z-score anomalies, generates a PDF report, and launches a Dash dashboard to inspect results.
+
+Install the dependencies listed in each script and run them with Python 3.9+.
