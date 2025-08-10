@@ -1,0 +1,11 @@
+database,direction,endpoint,environment,host,metric_name,status,tags_region,tags_zone,timestamp,unit,value
+,,,production,web-01,cpu_usage,,us-east-1,1a,2024-08-10T05:00:00Z,,45.2
+,,,production,web-01,memory_usage,,us-east-1,1a,2024-08-10T05:01:00Z,,67.8
+,,,production,web-01,disk_io,,us-east-1,1a,2024-08-10T05:02:00Z,MB/s,1024.5
+,,/api/users,production,api-01,response_time,,,,2024-08-10T05:00:00Z,ms,125
+,,/api/orders,production,api-01,error_count,error,,,2024-08-10T05:01:00Z,,3
+,,/api/users,production,api-01,throughput,,,,2024-08-10T05:02:00Z,req/s,456.7
+,inbound,,production,db-01,network_bytes,,,,2024-08-10T05:00:00Z,,2048576
+users,,,production,db-01,active_connections,,,,2024-08-10T05:01:00Z,,127
+orders,,,production,db-01,query_duration,,,,2024-08-10T05:02:00Z,ms,45.6
+,,,production,web-01,cpu_usage,,us-east-1,1a,2024-08-10T05:03:00Z,,52.1
