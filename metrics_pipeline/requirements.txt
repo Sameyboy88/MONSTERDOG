@@ -1,0 +1,5 @@
+# Minimal Python dependencies for metrics pipeline
+# Core packages for JSON and CSV processing (using standard library)
+# Optional: plotly and pandas for dashboard generation
+plotly>=5.0.0
+pandas>=1.3.0

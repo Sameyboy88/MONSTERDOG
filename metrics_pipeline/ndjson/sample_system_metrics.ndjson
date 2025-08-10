@@ -1,0 +1,10 @@
+{"timestamp": "2024-08-10T05:00:00Z", "metric_name": "cpu_usage", "value": 45.2, "host": "web-01", "environment": "production", "tags": {"region": "us-east-1", "zone": "1a"}}
+{"timestamp": "2024-08-10T05:01:00Z", "metric_name": "memory_usage", "value": 67.8, "host": "web-01", "environment": "production", "tags": {"region": "us-east-1", "zone": "1a"}}
+{"timestamp": "2024-08-10T05:02:00Z", "metric_name": "disk_io", "value": 1024.5, "host": "web-01", "environment": "production", "unit": "MB/s", "tags": {"region": "us-east-1", "zone": "1a"}}
+{"timestamp": "2024-08-10T05:00:00Z", "metric_name": "response_time", "value": 125, "host": "api-01", "environment": "production", "unit": "ms", "endpoint": "/api/users"}
+{"timestamp": "2024-08-10T05:01:00Z", "metric_name": "error_count", "value": 3, "host": "api-01", "environment": "production", "status": "error", "endpoint": "/api/orders"}
+{"timestamp": "2024-08-10T05:02:00Z", "metric_name": "throughput", "value": 456.7, "host": "api-01", "environment": "production", "unit": "req/s", "endpoint": "/api/users"}
+{"timestamp": "2024-08-10T05:00:00Z", "metric_name": "network_bytes", "value": 2048576, "host": "db-01", "environment": "production", "direction": "inbound"}
+{"timestamp": "2024-08-10T05:01:00Z", "metric_name": "active_connections", "value": 127, "host": "db-01", "environment": "production", "database": "users"}
+{"timestamp": "2024-08-10T05:02:00Z", "metric_name": "query_duration", "value": 45.6, "host": "db-01", "environment": "production", "unit": "ms", "database": "orders"}
+{"timestamp": "2024-08-10T05:03:00Z", "metric_name": "cpu_usage", "value": 52.1, "host": "web-01", "environment": "production", "tags": {"region": "us-east-1", "zone": "1a"}}
