@@ -21,3 +21,7 @@ _old/
 
 # Local Netlify folder
 .netlify
+
+# Metrics pipeline generated files (keep source files, ignore outputs)
+metrics_pipeline/csv/
+metrics_pipeline/dashboards/*.html
